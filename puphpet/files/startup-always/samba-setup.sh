@@ -25,7 +25,6 @@ elif [[ "${OS}" == 'centos' ]]; then
     echo $rootPassword | passwd root --stdin
 fi
 
-
 echo 'Adding Samba config'
 
 if ! grep -R "\[www\]" "/etc/samba/smb.conf"; then
