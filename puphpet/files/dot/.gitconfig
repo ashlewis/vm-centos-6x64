@@ -1,0 +1,22 @@
+[user]
+        name = ash@s8080.com
+        email = ash@s8080.com
+[color]
+        ui = true
+[alias]
+        ci = commit
+        co = checkout
+        br = branch
+        st = status
+        subup = submodule update
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[color "status"]
+        added = white green
+        changed = white red
+        untracked = white cyan
+[core]
+        autocrlf = true
+        whitespace = cr-at-eol
+[credential]
+[credential]
+        helper = cache --timeout=3600

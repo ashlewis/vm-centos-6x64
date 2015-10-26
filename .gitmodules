@@ -1,0 +1,3 @@
+[submodule "puphpet/files/dot/puphpet_dotfiles"]
+	path = puphpet/files/dot/puphpet_dotfiles
+	url = git@github.com:ashlewis/puphpet_dotfiles.git
