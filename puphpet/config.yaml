@@ -197,6 +197,7 @@ php:
             - intl
             - mcrypt
             - gd
+            - mbstring
         pear:
             - PHP_CodeSniffer
         pecl:
@@ -271,6 +272,7 @@ python:
 nodejs:
     install: '1'
     npm_packages:
+        - bower
         - grunt-cli
         - gulp
         - uglify-js

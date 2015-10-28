@@ -11,12 +11,11 @@
         subup = submodule update
         lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 [color "status"]
-        added = white green
-        changed = white red
-        untracked = white cyan
+        added = white green bold
+        changed = white red bold
+        untracked = white cyan bold
 [core]
-        autocrlf = true
+        autocrlf = false
         whitespace = cr-at-eol
-[credential]
 [credential]
         helper = cache --timeout=3600
