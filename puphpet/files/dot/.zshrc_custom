@@ -1,0 +1,9 @@
+# custom oh-my-zsh config
+# -----------------------
+ZSH_THEME="agnoster"
+plugins=(git z common-aliases)
+source $ZSH/oh-my-zsh.sh
+
+# common shell stuff
+# -----------------------
+source .shrc

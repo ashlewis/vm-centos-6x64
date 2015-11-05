@@ -1,4 +1,9 @@
 #!/bin/bash
 #
-PATH=$PATH:/usr/local/bin
-export PATH
+# @file add paths to be available to both bash and zsh
+
+# npm packages grunt, gulp, etc.
+export PATH=$PATH:/usr/local/bin
+
+# composer for updated drush
+export PATH=$PATH:$HOME/.composer/vendor/bin

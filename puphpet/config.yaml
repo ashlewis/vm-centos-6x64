@@ -204,7 +204,7 @@ php:
             - pecl_http
             - APC
             - uploadprogress
-            - mongo
+            # - mongo  (this takes forever on provision)
     ini:
         display_errors: 'On'
         error_reporting: '-1'
@@ -276,7 +276,7 @@ nodejs:
         - grunt-cli
         - gulp
         - uglify-js
-        - browser-sync
+        # - browser-sync cannot get this to work at all (Failed at the bufferutil@1.2.1 install script 'node-gyp rebuild')
 hhvm:
     install: '0'
     nightly: 0
