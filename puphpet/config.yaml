@@ -210,6 +210,7 @@ php:
         error_reporting: '-1'
         session.save_path: /var/lib/php/session
         date.timezone: UTC
+        sendmail_path: /usr/local/rvm/wrappers/default/catchmail -f me@local.ash
     fpm_ini:
         error_log: /var/log/php-fpm.log
     fpm_pools:
