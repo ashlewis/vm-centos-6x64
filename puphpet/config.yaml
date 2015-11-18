@@ -64,6 +64,7 @@ server:
         - ImageMagick
         - geos
         - zsh
+        - gitflow
 users_groups:
     install: '1'
     groups: {  }
