@@ -1,2 +1,3 @@
 puphpet/files/private/build.conf
 .vagrant
+puphpet/files/dot/ssh/*id_rsa*
